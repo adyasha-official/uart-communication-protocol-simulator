@@ -24,7 +24,8 @@ UART_Frame uart_pack_frame(uint8_t data,
                            const UART_Config *config);
 
 uint8_t uart_unpack_frame(const UART_Frame *frame);
-
+bool uart_validate_frame(const UART_Frame *frame,
+                         const UART_Config *config);
 bool uart_calculate_parity(uint8_t data);
 
 void uart_print_frame(const UART_Frame *frame,
