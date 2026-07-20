@@ -1,14 +1,17 @@
 # Executables
 *.exe
-*.out
+*.ex
+
+# Object files
 *.o
 *.obj
+
+# Build folders
+build/
 
 # VS Code
 .vscode/
 
-# Build folder
-build/
-
-# Logs
-*.log
+# OS files
+Thumbs.db
+.DS_Store

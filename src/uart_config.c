@@ -5,7 +5,7 @@ void uart_config_default(UART_Config *config)
 {
     config->baud_rate = 9600;
     config->data_bits = 8;
-    config->parity = UART_PARITY_NONE;
+    config->parity = UART_PARITY_EVEN;
     config->stop_bits = 1;
 }
 
